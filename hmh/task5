@@ -1,0 +1,8 @@
+decimal_number = int(input("Введіть число в десятковій системі: "))
+
+def decimal_to_binary(decimal):
+    binary = bin(decimal).replace("0b", "")
+    return binary
+
+binary_number = decimal_to_binary(decimal_number)
+print("Двійкове представлення числа", decimal_number, ":", binary_number)

@@ -1,0 +1,9 @@
+print("Перші 10 натуральних чисел (while):")
+counter = 1
+while counter <= 10:
+    print(counter)
+    counter += 1
+
+print("\nПерші 10 натуральних чисел (for):")
+for i in range(1, 11):
+    print(i)
